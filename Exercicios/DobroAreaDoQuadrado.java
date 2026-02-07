@@ -6,11 +6,12 @@ public class DobroAreaDoQuadrado{
 		scan.useLocale(java.util.Locale.US);
 		
 		System.out.println("informe a medida do lado do quadrado: ");
-		int lado = scan.nextInt();
+		double lado = scan.nextDouble();
 		
-		int areaQuadrado = lado * lado;
-		int dobroDaArea = areaQuadrado * 2;
+		double areaQuadrado = Math.pow(lado,2);
+		double dobroDaArea = areaQuadrado * 2;
 		
+		System.out.println("area do quadrado: "+areaQuadrado);
 		System.out.println("O dobro da area do quadrado é: "+dobroDaArea);
 		
 	}

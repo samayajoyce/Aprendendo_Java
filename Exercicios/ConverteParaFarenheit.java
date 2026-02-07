@@ -10,7 +10,7 @@ public class ConverteParaFarenheit{
 		double temperaturaC = scan.nextDouble();
 		double converteParaF = (temperaturaC * 9/ 5) + 32;
 		
-		System.out.println("A temperatura em Farenheit é: "+converteParaF);
+		System.out.println("A temperatura "+temperaturaC+"°C em Farenheit é: "+converteParaF+"°F");
 	}
 	
 }

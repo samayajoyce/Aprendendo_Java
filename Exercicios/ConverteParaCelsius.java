@@ -9,6 +9,6 @@ public class ConverteParaCelsius{
 		double temperaturaF = scan.nextDouble();
 		double converteParaC = (5 * (temperaturaF - 32) / 9);
 		
-		System.out.println("temperatura convertida para Celsius é: "+converteParaC);
+		System.out.println("temperatura "+temperaturaF+"°F convertida para Celsius é: "+converteParaC+"°C");
 	}
 }
